@@ -7,22 +7,22 @@ import './App.css'
 const mocData = [
     {
         id: 0,
-        isDone: true,
-        title: "Interstellar",
+        isDone: false,
+        title: "극장판 치이카와: 인어 섬의 비밀",
         rating: 5,
         date: new Date().getTime()
     },
     {
         id: 1,
-        isDone: true,
-        title: "La La Land",
+        isDone: false,
+        title: "오디세이",
         rating: 4,
         date: new Date().getTime()
     },
     {
         id: 2,
         isDone: false,
-        title: "About Time",
+        title: "듄: 파트 1",
         rating: 3,
         date: new Date().getTime()
     }
