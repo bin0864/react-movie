@@ -1,0 +1,83 @@
+.MovieItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 15px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.MovieItem input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    accent-color: #922e2b;
+}
+
+.MovieItem .title {
+    flex: 1;
+    min-width: 0;
+    font-size: 16px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+.MovieItem .rating {
+    color: #d4a047;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.MovieItem .date {
+    font-size: 14px;
+    color: gray;
+}
+
+.MovieItem .btns-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.MovieItem .btns-wrap button {
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
+.MovieItem .updateBtn {
+    background-color: #922e2b;
+    color: white;
+}
+
+.MovieItem .deleteBtn {
+    background-color: #eeeeee;
+    color: #555555;
+}
+
+.MovieItem .updateBtn:hover {
+    background-color: #70211f;
+}
+
+.MovieItem .deleteBtn:hover {
+    background-color: #dddddd;
+}
+
+.MovieItem.isDone {
+    background-color: #fff8e7;
+}
+
+.MovieItem.isDone .title {
+    color: #922e2b;
+}
+
+.MovieItem input.title,
+.MovieItem input.date,
+.MovieItem select {
+    padding: 8px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    background-color: white;
+}

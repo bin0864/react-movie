@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff8e7;
+    color: #333333;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
+}
+
+input,
+button,
+select {
+    font-family: inherit;
+    font-size: 14px;
+}

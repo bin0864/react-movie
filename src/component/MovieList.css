@@ -1,23 +1,30 @@
 .MovieList {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MovieList > h4 {
+    font-size: 22px;
+    margin: 0;
 }
 
 .MovieList > input {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid rgb(220, 220, 220);
-  padding: 15px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: transparent;
 }
 
 .MovieList > input:focus {
-  outline: none;
-  border-bottom: 1px solid rgb(37, 147, 255);
+    outline: none;
+    border-bottom: 1px solid #922e2b;
 }
 
 .MovieList .movies-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
